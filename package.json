@@ -15,13 +15,10 @@
     "bump": "npx --yes -- @jsdevtools/version-bump-prompt@latest && npm i",
     "debug": "vitest --inspect-brk --no-file-parallelism -t \"Renders\" \"testingLibrary\""
   },
-  "ManifestComments": [
-    "js-beautify is pinned to 1.x.x as it is only used as a migration path from jest-serializer-vue-tjw"
-  ],
   "dependencies": {
     "cheerio": "^1.2.0",
     "htmlparser2": "^12.0.0",
-    "js-beautify": "1.15.4"
+    "js-beautify": "^2.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
